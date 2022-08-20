@@ -1,0 +1,12 @@
+html {
+    font-family: 'Segoe UI';
+}
+p{
+    text-align: justify;
+}
+.fondo-rojo{
+    background-color: crimson;
+}
+.fondo-azul{
+    background-color: cornflowerblue;
+}
