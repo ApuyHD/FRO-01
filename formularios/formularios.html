@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/formularios/css/reset.css">
+    <link rel="stylesheet" href="/formularios/css/formularios.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,13 +18,56 @@
                 </header>
                 <form id="frm-registro">            
                     <div class="fila">
-                        <div class="columna">
+                        <div class="columna-2">
                             <label for="txt-nombre">Nombre</label>
                             <input type="text" placeholder="Nombre" id="txt-nombre">
                         </div>
-                        <div class="columna"> 
+                        <div class="columna-2"> 
                             <label for="txt-apellidos">Apellidos</label>
                             <input type="text" placeholder="Apellidos" id="txt-apellidos">
+                    </div>
+                        <div class="fila">
+                            <label for="txt-correo">Correo electronico</label>
+                            <input type="email" id="txt-correo" placeholder="JohnDoe123@mail.com">
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="columna">
+                            <label for="txt-direccion">Direccion</label>
+                            <input type="text" id="txt-direccion" placeholder="Direccion">
+
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="columna-3">
+                            <label for="txt-ciudad">Ciudad</label>
+                            <input type="text" id="txt-ciudad" placeholder="Ciudad">
+                        </div>
+                        <div class="columna-2">
+                            <label for="slt-provincia">Provincia</label>
+                            <select id="slt-provincia">
+                                <option value="">Selecione una provincia</option>
+                                <option value="1">San Jose</option>
+                                <option value="2">Alajuela</option>
+                                <option value="3">Cartago</option>
+                                <option value="4">Heredia</option>
+                                <option value="5">Puntarenas</option>
+                                <option value="6">Limon</option>
+                                <option value="7">Guanacaste</option>
+
+                            </select>
+                        </div>
+                        <div class="columna-2">
+                            <label for="txt-zip">Codigo postal</label>
+                            <input type="text" id="txt-zip">
+
+                        </div>
+                        <div class="fila">
+                            <div class="columna">
+                                <button type="button" id="btn-registrar"> Registrarme</button>
+                            </div>
+
+                        </div>
                     </div>
                 </form>
         </section>
