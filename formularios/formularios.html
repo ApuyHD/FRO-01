@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/formularios/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/formularios/css/formularios.css">
     <title>Document</title>
 </head>
+
 <body>
     <main>
         <h1>Cuenta nueva</h1>
-        <section>
-                <h2>Hermes Deliveries</h2>
+        <section id="sct-registro">
+            <h2>Hermes Deliveries</h2>
+            <form id="frm-registro">
                 <header>
                     <h3> Nuevo registro</h3>
                 </header>
-                <form id="frm-registro">            
-                    <div class="fila">
-                        <div class="columna-2">
-                            <label for="txt-nombre">Nombre</label>
-                            <input type="text" placeholder="Nombre" id="txt-nombre">
-                        </div>
-                        <div class="columna-2"> 
-                            <label for="txt-apellidos">Apellidos</label>
-                            <input type="text" placeholder="Apellidos" id="txt-apellidos">
+                <div class="fila">
+                    <div class="columna-2">
+                        <label for="txt-nombre">Nombre</label>
+                        <input type="text" placeholder="Nombre" id="txt-nombre">
                     </div>
-                        <div class="fila">
-                            <label for="txt-correo">Correo electronico</label>
-                            <input type="email" id="txt-correo" placeholder="JohnDoe123@mail.com">
-                        </div>
+                    <div class="columna-2">
+                        <label for="txt-apellidos">Apellidos</label>
+                        <input type="text" placeholder="Apellidos" id="txt-apellidos">
                     </div>
-                    <div class="fila">
-                        <div class="columna">
-                            <label for="txt-direccion">Direccion</label>
-                            <input type="text" id="txt-direccion" placeholder="Direccion">
+                    <div class="columna-2">
+                        <label for="txt-correo">Correo electronico</label>
+                        <input type="email" id="txt-correo" placeholder="JohnDoe123@mail.com">
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="columna">
+                        <label for="txt-direccion">Direccion</label>
+                        <input type="text" id="txt-direccion" placeholder="Direccion">
 
-                        </div>
                     </div>
-                    <div class="fila">
-                        <div class="columna-3">
-                            <label for="txt-ciudad">Ciudad</label>
-                            <input type="text" id="txt-ciudad" placeholder="Ciudad">
-                        </div>
-                        <div class="columna-2">
-                            <label for="slt-provincia">Provincia</label>
-                            <select id="slt-provincia">
-                                <option value="">Selecione una provincia</option>
+                </div>
+                <div class="fila">
+                    <div class="columna-3">
+                        <label for="txt-ciudad">Ciudad</label>
+                        <input type="text" id="txt-ciudad" placeholder="Ciudad">
+                    </div>
+                    <div class="columna-2">
+                        <label for="slt-provincia">Provincia</label>
+                        <select id="slt-provincia">
+                                <option value="">Provincia</option>
                                 <option value="1">San Jose</option>
                                 <option value="2">Alajuela</option>
                                 <option value="3">Cartago</option>
@@ -56,20 +61,21 @@
                                 <option value="7">Guanacaste</option>
 
                             </select>
-                        </div>
-                        <div class="columna-2">
-                            <label for="txt-zip">Codigo postal</label>
-                            <input type="text" id="txt-zip">
+                    </div>
+                    <div class="columna-2">
+                        <label for="txt-zip">Codigo postal</label>
+                        <input type="text" id="txt-zip">
 
-                        </div>
                     </div>
-                    <div class="fila">
-                        <div class="columna">
-                            <button type="button" id="btn-registrar"> Registrarme</button>
-                        </div>
+                </div>
+                <div class="fila">
+                    <div class="columna">
+                        <button type="button" id="btn-registrar" class="btn-morado"> Registrarme</button>
                     </div>
-                </form>
+                </div>
+            </form>
         </section>
     </main>
 </body>
+
 </html>
