@@ -3,6 +3,8 @@ html {
 }
 
 .primera-caja {
+    display: flex;
+    flex-direction: column;
     width: auto;
     background-color: black;
     color: white;
@@ -19,6 +21,7 @@ html {
     flex-direction: row;
     min-height: 250px;
     width: auto;
+    align-content: center;
 }
 
 .ache1 {
@@ -42,10 +45,18 @@ html {
     width: 250px;
 }
 
-#navegacion {
+#Caja-navegacion {
     display: flex;
-    float: right;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     padding: 15px;
+}
+
+.Caja-navegacion2 {
+    display: flex;
+    align-self: flex-end;
+    flex-grow: 2;
 }
 
 .navegacion-lst {
@@ -54,7 +65,8 @@ html {
     font-weight: 1000;
     font-family: 'poppins', sans-serif;
     margin: 75px;
-    text-decoration: none
+    text-decoration: none;
+    flex-grow: 2;
 }
 
 p {
@@ -68,13 +80,12 @@ p {
 }
 
 .navegacion-2st {
-    flex-direction: row;
     color: black;
     font-size: 20px;
     font-weight: 1000;
     font-family: 'poppins', sans-serif;
     margin: 55px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .Segundo-prff {
@@ -88,8 +99,9 @@ p {
 
 .cajadefotos {
     display: flex;
+    flex-direction: column;
 }
 
 .fts-portada {
-    width: fit-content;
+    width: 1024;
 }
