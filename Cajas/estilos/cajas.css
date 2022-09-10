@@ -26,11 +26,11 @@ html {
 
 .ache1 {
     margin: 15px;
-    font-size: 25px;
+    font-size: 75px;
 }
 
 .ache2 {
-    margin: 15px;
+    margin-left: 15px;
     font-size: 20px;
 }
 
@@ -40,23 +40,17 @@ html {
 }
 
 .Logonasa {
-    flex-grow: 1;
-    float: left;
     width: 250px;
+    align-self: flex-start;
 }
 
-#Caja-navegacion {
+#caja-navegacion {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     padding: 15px;
-}
-
-.Caja-navegacion2 {
-    display: flex;
-    align-self: flex-end;
-    flex-grow: 2;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .navegacion-lst {
@@ -70,9 +64,8 @@ html {
 }
 
 p {
-    align-content: center;
+    width: 65%;
     padding: 100px;
-    justify-content: flex-start;
     color: black;
     font-size: 45px;
     font-weight: 1000;
@@ -89,7 +82,8 @@ p {
 }
 
 .Segundo-prff {
-    align-content: stretch;
+    text-align: end;
+    width: 65%;
     padding: 150px;
     color: rgb(240, 112, 27);
     font-size: 40px;
@@ -104,4 +98,23 @@ p {
 
 .fts-portada {
     width: 1024;
+}
+
+.subnavegacion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hijo-navegacion {
+    align-self: center;
+}
+
+.cajatxt1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cajatxt2 {
+    display: flex;
+    justify-content: flex-end;
 }
