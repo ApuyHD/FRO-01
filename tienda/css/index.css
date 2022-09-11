@@ -1,0 +1,110 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .redes {
+        font-weight: bold;
+        color: #3d4246;
+        text-decoration: underline;
+    }
+    /* inicio estilos: seccion oferta */
+    
+    #sct-ofertas {
+        padding-top: 40px;
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #sct-ofertas .img-container {
+        width: 50%;
+    }
+    
+    #sct-ofertas .img-container img {
+        width: 100%;
+    }
+    
+    #sct-ofertas .info {
+        padding-left: 3%;
+        width: 50%;
+    }
+    
+    #sct-ofertas .info h2 {
+        text-transform: uppercase;
+        color: #3d4246;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    #sct-ofertas .info h3 {
+        text-transform: uppercase;
+        color: #3d4246;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    #sct-ofertas .info p {
+        color: #69727b;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    #sct-ofertas .info p span {
+        font-weight: bold;
+    }
+    /* final estilos: seccion oferta */
+    /*incio seccion colores*/
+    
+    .caja-cuadros {
+        border: 2px solid #000;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        flex-wrap: wrap;
+    }
+    
+    .cuadro-verde {
+        background: green;
+        height: 100px;
+        width: 75%;
+    }
+    
+    .cuadro-amarillo {
+        background: yellow;
+        height: 100px;
+        width: 50%;
+    }
+    
+    .cuadro-rojo {
+        background: red;
+        height: 100px;
+        width: 75%;
+    }
+    
+    .cuadro-morado {
+        background: purple;
+        height: 100px;
+        width: 75%;
+    }
+    
+    @media all and (max-width: 576px) {
+        #sct-ofertas {
+            flex-direction: column;
+        }
+        #sct-ofertas .img-container {
+            width: 100%;
+        }
+        #sct-ofertas .info {
+            width: 100%;
+        }
+        .caja-cuadros {
+            flex-direction: column;
+        }
+    }
