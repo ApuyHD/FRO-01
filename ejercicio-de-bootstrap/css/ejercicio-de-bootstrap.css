@@ -1,0 +1,8 @@
+.cuerpo-entero {
+    height: 100vh;
+    background: lightskyblue;
+}
+
+.row .titulo {
+    height: 10vh;
+}
