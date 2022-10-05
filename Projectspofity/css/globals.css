@@ -1,1 +1,54 @@
-.container {margin: 0 250px;}
+/* global helper functions */
+
+.container {
+    margin: 0 150px;
+}
+
+section {
+    width: 100%;
+}
+
+section.clouds {
+    background-image: url('/img/2x-hero-card-background-image.png');
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card.card-border {
+    border: 5px solid rgb(158, 252, 207);
+}
+
+/* TODO: sections can have it's own files */
+
+/* Section - Premiun */
+
+section.premium {
+    padding: 50px 0;
+}
+
+section.premium .card {
+    background-color: rgb(32, 47, 114);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section.premium .card.card-border {
+    width: 40%;
+    padding: 0;
+}
+
+section.premium .card.card-border img {
+    width: 100%;
+}
+
+/* Section - Disclaimer */
+
+/* Section - Features */
+
+/* Section - Free Trial */
+
+/* Section - Pricing */
