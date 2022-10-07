@@ -21,9 +21,31 @@ section.clouds {
     border: 5px solid rgb(158, 252, 207);
 }
 
+
 /* TODO: sections can have it's own files */
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 /* Section - Premiun */
+
+.content {
+    color: white;
+}
+
+.content .maintitles {
+    color: aquamarine;
+    font-size: 75px;
+    padding: 10px;
+}
+
+.content .mainparagraphs {
+    font-size: 35px;
+    width: 55vh;
+    padding: 10px;
+}
 
 section.premium {
     padding: 50px 0;
@@ -45,10 +67,18 @@ section.premium .card.card-border img {
     width: 100%;
 }
 
+
 /* Section - Disclaimer */
+
+.disclaimer {
+    background-color: black;
+}
+
 
 /* Section - Features */
 
+
 /* Section - Free Trial */
+
 
 /* Section - Pricing */

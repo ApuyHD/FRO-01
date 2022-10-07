@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -48,6 +49,14 @@ header #nav-desktop {
     min-height: 175px;
     min-width: 320px;
     background: purple;
+}
+
+.imagendeperrito {
+    max-width: 640px;
+}
+
+.imagendeperritodos {
+    max-width: 640px;
 }
 
 @media all and (min-width: 640px) {
