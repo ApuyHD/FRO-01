@@ -37,14 +37,14 @@ html {
 
 .content .maintitles {
     color: aquamarine;
-    font-size: 75px;
+    font-size: 150px;
     padding: 10px;
 }
 
 .content .mainparagraphs {
-    font-size: 35px;
+    font-size: 40px;
     width: 55vh;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 section.premium {
@@ -72,6 +72,18 @@ section.premium .card.card-border img {
 
 .disclaimer {
     background-color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.container .maintitles {
+    padding: 5vh;
+}
+
+.disclaimer-img {
+    justify-self: flex-end;
 }
 
 
