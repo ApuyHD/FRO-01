@@ -9,7 +9,7 @@ section {
 }
 
 section.clouds {
-    background-image: url('/img/2x-hero-card-background-image.png');
+    background-image: url('/Projectspofity/img/2x-hero-card-background-image.png');
 }
 
 .card {
@@ -37,7 +37,7 @@ html {
 
 .content .maintitles {
     color: aquamarine;
-    font-size: 150px;
+    font-size: 85px;
     padding: 10px;
 }
 
